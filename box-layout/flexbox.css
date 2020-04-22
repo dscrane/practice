@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  color: white;
+}
+
+li {
+  height: 3.5vh;
+  width: 5vw;
+  margin: 2.2vh auto;
+  background-color: blanchedalmond;
+  list-style: none;
+}
+
+li:hover {
+  background-color: rgb(145, 129, 105);
+  cursor: pointer;
+}
+
+.header {
+  background-color: #84ceeb;
+  height: 13vh;
+}
+
+.container {
+  background-color: #dddddd;
+  display: flex;
+  justify-content: center;
+}
+
+.page {
+  background-color: #aaaaaa;
+  height: 76.6vh;
+  width: 65vw;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.content {
+  width: 54vw;
+  height: 71.5vh;
+  display: flex;
+  margin-left: 2.5vh;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item-1 {
+  background-color: #85dcb8;
+  width: 50vw;
+  height: 32vh;
+  display: flex;
+}
+
+.item-2 {
+  background-color: #c38d9e;
+  width: 50vw;
+  height: 32vh;
+  display: flex;
+}
+
+.avatar {
+  background-color: aliceblue;
+  border-radius: 50%;
+  display: flex;
+  float: left;
+  height: 6vw;
+  width: 6vw;
+  margin: 3vh 3vh;
+}
+
+.avatar:hover {
+  background-color: rgb(210, 216, 221);
+  cursor: pointer;
+}
+
+.text {
+  display: flex;
+  height: 15vh;
+  width: 42vw;
+}
+
+.sidebar {
+  background-color: #84ceeb;
+  height: 71.5vh;
+  width: 8vw;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #84ceeb;
+  height: 10.3vh;
+  display: flex;
+}

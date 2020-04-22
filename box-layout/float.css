@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  color: white;
+  text-align: center;
+}
+
+li {
+  margin: 2.2vh auto;
+  height: 3.5vh;
+  width: 5vw;
+  background-color: blanchedalmond;
+  list-style: none;
+}
+
+li:hover {
+  background-color: rgb(145, 129, 105);
+  cursor: pointer;
+}
+
+.header {
+  background-color: rgba(56, 15, 95, 0.753);
+  height: 13vh;
+}
+
+.container {
+  overflow: hidden;
+  background-color: #eaedf0;
+}
+
+.page {
+  background-color: rgba(97, 142, 172, 0.507);
+  height: 76.6vh;
+  width: 65vw;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content {
+  margin: 2.5vh 2.5vh 0px 2.5vh;
+  background-color: coral;
+  width: 54vw;
+  height: 34.5vh;
+  float: right;
+}
+
+.content.item-2 {
+  background-color: darkorange;
+}
+
+.avatar {
+  background-color: aliceblue;
+  border-radius: 50%;
+  float: left;
+  height: 6vw;
+  width: 6vw;
+  margin: 1.5vw 0px 0px 1.5vw;
+}
+
+.avatar:hover {
+  background-color: rgb(210, 216, 221);
+  cursor: pointer;
+}
+
+.text {
+  background-color: rgb(224, 220, 216);
+  margin: 2vh 2vh;
+  float: right;
+  height: 30.5vh;
+  width: 42vw;
+}
+
+.sidebar {
+  float: left;
+  background-color: rgb(255, 137, 108);
+  height: 71.5vh;
+  width: 8vw;
+  margin: 2.5vh 0px;
+}
+
+.footer {
+  clear: both;
+  background-color: chartreuse;
+  height: 10.3vh;
+}
